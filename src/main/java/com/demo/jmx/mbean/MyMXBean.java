@@ -38,4 +38,6 @@ public interface MyMXBean{
 
     void logMessage();
 
+    void setName(String name, String charsetName);
+
 }
